@@ -1,5 +1,52 @@
-# Password Manager 🔐
 ---
+US
+
+# Password Manager 🔐
+
+![Python Version](https://img.shields.io/badge/python-3.13-blue)
+![PyQt6](https://img.shields.io/badge/GUI-PyQt6-green)
+![License: GPL](https://img.shields.io/badge/License-GPL%203.0-blue)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey)
+
+**A secure password manager with GUI** for safe storage and management of your credentials.
+
+## 📋 Table of Contents
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Data Structure](#-data-structure)
+- [Security](#-security)
+- [Building to EXE](#-building-to-exe)
+- [Development](#-development)
+- [License](#-license)
+
+## ✨ Features
+
+- **🔐 Data Encryption** - All passwords are encrypted using Fernet (symmetric encryption)
+- **🖥️ Graphical Interface** - User-friendly GUI built with PyQt6 with dark theme
+- **💾 Secure Storage** - Database is stored encrypted in a protected directory
+- **🔑 Master Password Protection** - Additional security layer
+- **📊 Table View** - Convenient display of all entries
+- **⚡ Fast Operations** - Add, view, and delete records quickly
+- **🔄 Auto-Update** - Instant reflection of changes
+
+## 🚀 Installation
+
+### Requirements
+- Python 3.13 or newer
+- PyQt6
+- cryptography
+
+### Installing Dependencies
+
+``` bash
+pip install PyQt6 cryptography
+```
+
+---
+RU
+
+# Password Manager 🔐
 
 ![Python Version](https://img.shields.io/badge/python-3.13-blue)
 ![PyQt6](https://img.shields.io/badge/GUI-PyQt6-green)
